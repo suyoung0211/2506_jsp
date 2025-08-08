@@ -28,6 +28,8 @@
 		<li><a href="forward2.jsp?name=choi&hobby=sport">forward.jsp - 2) 파라미터 전달 확인</a></li>
 		
 		<li><a href="forward3.jsp">forward.jsp - 3) 요청을 URL 'hello' 로 전달</a></li>
+		
+		<li><a href="Bye">request 애트리뷰트 사용 예시 - 서블릿에서 jsp 로 전달하기</a></li>
 	</ul>
 </body>
 </html>
