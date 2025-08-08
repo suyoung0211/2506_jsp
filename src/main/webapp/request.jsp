@@ -39,9 +39,11 @@
 	-->
 	<hr>
 	<ul>
-		<h4>파라미터 가져오기 - Index 의 링크 클릭 !!</h4>
-		<p>name 파라미터 값 : <%= request.getParameter("name") %></p>
-		<p>hobby 파라미터 값 : <%= request.getParameter("hobby") %></p>
+		<li>
+			<h4>파라미터 가져오기 - Index 의 링크 클릭 !!</h4>
+			<p>name 파라미터 값 : <%= request.getParameter("name") %></p>
+			<p>hobby 파라미터 값 : <%= request.getParameter("hobby") %></p>
+		</li>
 	</ul>
 	
 </body>
