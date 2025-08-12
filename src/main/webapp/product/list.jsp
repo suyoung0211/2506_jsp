@@ -26,7 +26,7 @@
 	<!-- method="post" : 요청의 바디(본문)에 포함.
 		 				 개발자도구 네트워크 탭 - 페이로드 에서 확인 !!
 	-->
-		<form action="Search" method="post">
+		<form action="Search" method="get">
 			<input name="keyword" placeholder="상품 검색어 입력하세요." value="${param.keyword }">
 			<button type="submit">검색</button>
 		</form>

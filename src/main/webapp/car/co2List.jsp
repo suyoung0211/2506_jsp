@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car CO2</title>
 	<link rel="stylesheet" href="./assets/css/carList.css"/>
+	<link rel="stylesheet" href="./assets/css/modal.css"/>
 </head>
 <body>
     <div class="container">
@@ -67,7 +68,7 @@
                 <div class="search-buttons">
                     <button type="submit" class="btn btn-primary">검색</button>
                     <a class="btn btn-secondary" onclick="resetForm()">초기화</a>
-                    <button type="button" class="btn btn-secondary">새 차량 추가</button>
+                    <button type="button" class="btn btn-secondary" onclick="openModal()">새 차량 추가</button>
              
                 </div>
             </form>
@@ -119,6 +120,11 @@
             </c:otherwise>
         </c:choose>
     </div>
+    
+    <!-- include 지시자로 다른 jsp 파일을 포함시켜서 컴파일. -->
+    <%@ include file="car-modal.jsp" %>
+    <script type="text/javascript" src="./assets/js/modal.js"></script>
+    
     <script>
         // 폼 초기화 기능
      	function resetForm() {

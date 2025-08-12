@@ -73,7 +73,7 @@ public class CarCO2Servlet extends HttpServlet {
         List<CarDto> carList = carDAO.searchCars(carBrand, model, minVolume, maxVolume, 
                                                minWeight, maxWeight, minCo2, maxCo2);
         
-        // 검색 결과를 request에 저장
+        // 검색 결과를 request 에 저장
         request.setAttribute("carList", carList);
         
         // JSP로 포워딩
