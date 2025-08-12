@@ -18,6 +18,7 @@ public class ByeServlet extends HttpServlet {
     }
 
     // jsp 페이지로 데이터와 함께 요청을 전달 -> jsp 에서 데이터를 화면에 출력 -> html 문서 응답
+    // 동적인 데이터로 html 화면을 생성하기 위해 조회된 데이터를 jsp 전달
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// request 객체에 애트리뷰트 데이터를 저장하여 전달(Object 타입)
 		request.setAttribute("name", "PARK");

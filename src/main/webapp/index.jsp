@@ -31,5 +31,13 @@
 		
 		<li><a href="Bye">request 애트리뷰트 사용 예시 - 서블릿에서 jsp 로 전달하기</a></li>
 	</ul>
+	<hr>
+	<!-- 여기서부터는 URL 링크는 서블릿으로 사용하세요. why? -->
+	<!-- jsp가 애트리뷰트를 서블릿에서 받아오는 예시를 하고 있기 때문입니다. -->
+	<h2>dao 실행해서 화면 만들기</h2>
+	<ul>
+		<li><a href="Products">Product 목록 조회</a></li>
+		<li><a href="Cars">Car CO2 상세 검색</a></li>
+	</ul>
 </body>
 </html>
